@@ -1,0 +1,37 @@
+.wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+.calendar{
+    display: flex;
+    
+    justify-items: center;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    font-size: 0;
+
+}
+.text{
+   width: 15%;
+   height: 90%;
+    margin: 1px;
+    font-size: 16px;
+
+}
+.texxt{
+    width: 15%;
+    height: 90%;
+    border: 1px solid sandybrown;
+    font-size: 16px;
+    
+}
+.calendar li{
+    display: inline-block;
+    list-style: none;
+}
+.texxt:nth-child(1){
+    
+    order: 2;
+}
